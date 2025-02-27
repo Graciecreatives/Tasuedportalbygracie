@@ -1,0 +1,272 @@
+body{
+    background: url(background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.main{
+    background-color: rgba(0, 0, 0, 0.333);
+    border: none;
+    box-shadow: 2px 3px 20px white;
+    width: 700px;
+    height: 470px;
+    margin-top: 20%;
+    margin-left: 250px;
+    padding-right: 50px;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lefthand {
+    width: 300px;
+    height: 400px;
+      
+}
+.lefthand1 {
+    display: none;
+}
+.cont{
+    background-color: #e9d1c7;
+    width: 300px;
+    height: 240px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cont p {
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 16px;
+    line-height: 30px;
+    color:#A36853;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.lefthand button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#3C90DF ;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lefthand button:hover{
+    transition-duration: 0.5s;
+    box-shadow: 1px 1px 5px white;
+}
+
+.righthand {
+    width: 300px;
+    height: 400px;
+        
+}
+
+.hd{
+    display: flex; 
+    align-items: center;
+    margin-bottom: -10px;
+}
+.hd img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+   
+}
+.lefthand1 {
+    display: none;
+}
+.hd h2{
+    font-size: 30px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.righthand h3{
+    font-size: 25px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.righthand form input{
+    width: 255px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sign {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #82B54B;
+    color: white;
+    align-items: baseline;
+    cursor: pointer;
+
+}
+#forgetpw {
+    height: 40px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    font-family: 14px;
+    cursor: pointer;
+    background-color: #343A40;
+    color: white;
+
+}
+
+.passwordform ion-icon {
+    color: black;
+    position: absolute;
+    font-size: 25px;
+    padding-top: 5px;
+    align-items: center;
+    margin-left: 5px;
+}
+.usernameform ion-icon {
+    position: absolute;
+    font-size: 25px;
+    padding-top: 5px;
+    align-items: center;
+    margin-left: 5px;
+    color: black;
+}
+#sign ion-icon {
+    font-size: 20px;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+
+#sign:hover{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+#forgetpw ion-icon {
+    font-size: 18px;
+    color: white;
+}
+#forgetpw:hover{
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+/** media **/
+@media (max-width: 800px) {
+   
+    body{
+        background: url(background.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+    }
+    .main{
+        background-color: rgba(0, 0, 0, 0.333);
+        border: none;
+        box-shadow: 2px 3px 20px white;
+        width: 320px;
+        height: 800px;
+        margin-top: 50px;
+        border-radius: 10px;
+        margin-left: 20%;
+        padding-right: 10px;
+        border-radius: 10px;
+        padding-top: 20px;
+        padding-left: 17px;
+       justify-content: space-between;
+        display: block;
+        justify-content: space-between;
+    }
+    .lefthand {
+        display: none;
+    }
+    .lefthand1 {
+        display: block;
+        width: 300px;
+        height: 400px;
+          
+    }
+    .cont{
+        background-color: #e9d1c7;
+        width: 300px;
+        height: 250px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cont p {
+        text-align: center;
+        margin-left: 6px;
+        margin-right: 6px;
+        font-size: 16px;
+        line-height: 30px;
+        color:#A36853;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .lefthand1 button{
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        background-color:#3C90DF ;
+        color: white;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .lefthand button:hover{
+        transition-duration: 0.5s;
+        box-shadow: 1px 1px 5px white;
+    }
+    
+}
+
+/**2nd media query**/
+@media (min-width: 821px) {
+    .main{
+        background-color: rgba(0, 0, 0, 0.333);
+        border: none;
+        box-shadow: 2px 3px 20px white;
+        width: 700px;
+        height: 400px;
+        margin-top: 100px;
+        margin-left: 10%;
+        padding-right: 10px;
+        border-radius: 10px;
+        padding-top: 60px;
+        padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media (width:768px){
+    .main {
+    margin-left: 25%;
+    }
+}
